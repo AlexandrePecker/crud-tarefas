@@ -1,0 +1,15 @@
+{
+  "name": "tasks-api",
+  "version": "1.0.0",
+  "description": "CRUD de tarefas com Node.js puro",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}
